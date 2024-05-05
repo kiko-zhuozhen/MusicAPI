@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artist Information Search</title>
+</head>
+<body>
+    <h1>Search for Artist Details</h1>
+    <input type="text" id="artistInput" placeholder="Enter artist name">
+    <button onclick="fetchArtistDetails()">Search</button>
+    <div id="results"></div>
+
+    <script src="./js/musicAPI_artist.js"></script>
+</body>
+<style>
+    body {
+        text-align: center;
+        margin-top:50px;
+    }
+
+    input {
+        width: 300px;
+    }
+</style>
+</html>

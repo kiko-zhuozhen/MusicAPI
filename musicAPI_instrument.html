@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instrument Search and Detail View</title>
+</head>
+<body>
+    <h1>Search for an Instrument by MBID</h1>
+    <input type="text" id="instrumentName" placeholder="Enter MBID">
+    <button id="searchButton">Search</button>
+    <div id="results"></div>
+    <div id="instrumentDetails"></div>
+
+    <script src="./js/musicAPI_instrument.js"></script>
+</body>
+
+<style>
+    body {
+        text-align: center;
+        margin-top:50px;
+    }
+
+    input {
+        width: 300px;
+    }
+</style>
+</html>

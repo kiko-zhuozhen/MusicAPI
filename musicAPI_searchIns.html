@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instrument Search and Detail View</title>
+</head>
+<body>
+    <h1>Search for an Instrument</h1>
+    <input type="text" id="instrumentName" placeholder="Enter instrument name">
+    <button onclick="searchInstrument()">Search</button>
+    <div id="results"></div>
+    <div id="instrumentDetails"></div>
+
+    <div id="link">
+    <a href="musicAPI_instrument.html">Look up Instrument</a>
+    </div>
+
+    <script src="./js/musicAPI_searchIns.js"></script>
+</body>
+
+<style>
+    body {
+        text-align: center;
+        margin-top:50px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    #link {
+        margin-top:100px;
+    }
+</style>
+</html>
