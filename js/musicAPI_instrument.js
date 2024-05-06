@@ -31,3 +31,4 @@ function displayInstrumentDetails(instrument) {
         detailsDiv.innerHTML = 'No instrument found with the provided MBID';
     }
 }
+
